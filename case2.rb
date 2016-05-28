@@ -1,7 +1,5 @@
 # practising case statements continued.
 
-
-
 puts "what is your favorite ice cream flavor?"
 icecream = gets.chomp.downcase
 
