@@ -7,7 +7,7 @@ elsif
   puts "hello #{name.capitalize}."
 end
 
-print "#{name.capitalize}, would you like to see your name backwards? Enter 'yes' or 'no'."
+print "#{name.capitalize}, would you like to see your name backwards? Enter 'yes' or 'no'. "
 answer = gets.chomp
 
 if answer == "yes" || answer == "y"
