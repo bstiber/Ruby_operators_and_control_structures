@@ -19,7 +19,7 @@ case answer
   when "uppercase"
     puts "Here you go #{name.upcase}...."
   when "both"
-  puts "Your name backwards is #{name.reverse} and your name in all uppercase is #{name.upcase}. Enjoy!"
+    puts "Your name backwards is #{name.reverse} and your name in all uppercase is #{name.upcase}. Enjoy!"
   else answer != "both" || "backwards" || "uppercase"
-  puts "maybe some other time then."
+    puts "maybe some other time then."
 end
