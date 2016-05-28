@@ -4,7 +4,7 @@
 
 car_speed = 55
 speed_limit = 55
-going_speed_limit = 55
+going_speed_limit = true
 
 if car_speed == speed_limit
   going_speed_limit == true
