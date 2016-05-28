@@ -6,6 +6,6 @@ speed_limit = 60
 too_fast = true
 
 if car_speed > speed_limit
-   too_fast
-   puts "true"
+  too_fast
+  p too_fast
 end
