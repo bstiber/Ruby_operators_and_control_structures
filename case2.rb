@@ -1,10 +1,12 @@
 # practising case statements continued.
 
+
+
 puts "what is your favorite ice cream flavor?"
 icecream = gets.chomp.downcase
 
 case icecream
-when  "chocolate"
+  when  "chocolate"
     puts "chocolate is my favorite as well."
   when  "vanilla"
     puts "vanilla is good too."
